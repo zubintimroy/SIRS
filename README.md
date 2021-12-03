@@ -1,5 +1,5 @@
 # The SIR Model
-This is a project that produces a SIR Model simulation. Cells are either Infected (I), Susceptible (S), Recovered (R) or Immune (Im).
+This is a project that produces a SIR Model simulation. Cells are either Susceptible (S),Infected (I), Recovered (R) or Immune (Im).
 
 Rules:
 1. S -> I with probability p1 if at least one nearest neighbour is I, otherwise remains S
