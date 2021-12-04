@@ -23,6 +23,6 @@ Requires p1,p2,p3 and fraction of immune cells as input in the main.py.
 Example .txt files and visualisation scripts include:
 
 - No immunity heatmap plot of average infected fraction and variance of infected sites versus p1 and p3 for p2 = 0.5
-- ``` Plot of variance of infected sites versus p1 for p2 = p3 = 0.5 with error bars```
-- ``` With immunity average infected fraction of sites as a function of the immune fraction with error bars```
+- Plot of variance of infected sites versus p1 for p2 = p3 = 0.5 with error bars
+- With immunity average infected fraction of sites as a function of the immune fraction with error bars
 
