@@ -1,4 +1,4 @@
-# The SIR Model
+# The SIRS Model
 This is a python project that produces a SIR Model simulation for visualisation or output measurement. Cells are either Susceptible (S),Infected (I), Recovered (R) or Immune (Im).
 
 Rules:
