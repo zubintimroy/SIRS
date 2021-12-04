@@ -20,7 +20,7 @@ Requires p1,p2,p3 and fraction of immune cells as input in the main.py.
 - ``` python main.py Mode Size of Lattice p1 p2 p3 fraction of immune ```
 
 ## Outputs
-Example output .txt files and visualisation python scripts using matplotlib include:
+Example output.txt files and python scripts using matplotlib to visualize the data include:
 
 ### No immunity
 - Heatmap of average infected fraction and variance of infected sites for p1 against p3 with  ``` p2 = 0.5  ```
