@@ -17,4 +17,4 @@ Requires p1,p2,p3 and fraction of immune cells as input in the main.py.
 
 ## Activate Virtual Environment and Running the Script
 - ``` .\env\Scripts\activate ```
-- ``` python GenerateUserReports.py ```
+- ``` python main.py Mode Size of Lattice p1 p2 p3 fraction of immune ```
