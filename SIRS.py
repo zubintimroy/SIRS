@@ -233,7 +233,7 @@ class SIRS:
         error_I, error_var_I = (errors[0]/(self.N*self.N)), (errors [1]/(self.N*self.N))
         
         
-        file = open('FINAL Variance Cut.txt', 'a+')
+        file = open('Variance Cut.txt', 'a+')
         file.write('\n' + str(self.p1) + ' ' + str(self.p3) + ' ' + str(Av_I) + ' ' + str(error_I)+ ' ' + str(Var_I) + ' ' + str(error_var_I))
         file.close()
         
@@ -241,4 +241,32 @@ class SIRS:
         file = open('Imunity Data.txt', 'a+')
         file.write('\n' + str(self.fIm) + ' ' + str(Av_I) + ' ' + str(error_I))
         file.close()
-       
+        
+
+#Variance graph 
+"""
+for i in range (0,31):
+    p1 = (0.2+0.01*i)
+    model=SIRS(50,p1,0.5,0.5,0)
+    model.runmodel()
+
+
+#Infected Fraction
+for i in range (0,50):
+    for j in range(0,101):
+        fIm = 0.01*j
+        model=SIRS(50,0.5,0.5,0.5,fIm)
+        model.runmodel()
+
+
+
+#heatmap        
+for i in range (0,41):
+    for j in range (0,41):
+        p1 = 0.025*i
+        p3 = 0.025*j
+        model=SIRS(50,p1,0.5,p3,0)
+        model.runmodel()
+
+
+"""
