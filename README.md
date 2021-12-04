@@ -1,5 +1,5 @@
 # The SIRS Model
-This is a python project that produces a SIR Model simulation for visualisation or output measurement. Cells are either Susceptible (S),Infected (I), Recovered (R) or Immune (Im).
+This is a python project that produces a SIRS Model simulation for visualisation using matplotlib or output measurement. Cells are either Susceptible (S),Infected (I), Recovered (R) or Immune (Im).
 
 Rules:
 1. S -> I with probability p1 if at least one nearest neighbour is I, otherwise remains S
@@ -22,7 +22,10 @@ Requires p1,p2,p3 and fraction of immune cells as input in the main.py.
 ## Outputs
 Example output .txt files and visualisation python scripts using matplotlib include:
 
-- No immunity heatmap plot of average infected fraction and variance of infected sites for p1 against p3 with p2 = 0.5
+### No immunity
+- Heatmap of average infected fraction and variance of infected sites for p1 against p3 with p2 = 0.5
 - Plot of variance of infected sites for p1 with p2 = p3 = 0.5 with error bars
-- With immunity average infected fraction of sites as a function of the immune fraction with error bars
+
+### With Immunity
+- Average infected fraction of sites as a function of the immune fraction with error bars
 
